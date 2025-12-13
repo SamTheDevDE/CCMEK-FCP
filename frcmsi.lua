@@ -1,4 +1,4 @@
-local CCMSI_VERSION = "v1.21"
+local CCMSI_VERSION = "v1.22"
 
 local install_dir = "/.install-cache"
 local manifest_path = "https://SamTheDevDE.github.io/CCMEK-FCP/manifests/"
