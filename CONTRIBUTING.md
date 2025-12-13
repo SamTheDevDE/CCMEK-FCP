@@ -49,7 +49,7 @@ PRs will only be accepted if they match the style of this project and pass manua
 6. **Multiple `return`s.**
    These are allowed to minimize code size, but if it is simple to avoid multiple, do so.
 7. **Classes and Objects.**
-   Review the existing code for examples on how objects are implemented in this project. They do not use Lua's `:` operator and `self` functionality. A manual object-like table definition is used. Some global single-instance classes don't use a `new()` function, such as the [PPM](https://github.com/MikaylaFischler/cc-mek-scada/blob/main/scada-common/ppm.lua). Multi-instance ones do, such as the Supervisor's [unit](https://github.com/MikaylaFischler/cc-mek-scada/blob/main/supervisor/unit.lua) class.
+   Review the existing code for examples on how objects are implemented in this project. They do not use Lua's `:` operator and `self` functionality. A manual object-like table definition is used. Some global single-instance classes don't use a `new()` function, such as the [PPM](https://github.com/MikaylaFischler/cc-mek-frcms/blob/main/scada-common/ppm.lua). Multi-instance ones do, such as the Supervisor's [unit](https://github.com/MikaylaFischler/cc-mek-frcms/blob/main/supervisor/unit.lua) class.
 
 ### No AI
 

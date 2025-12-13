@@ -18,8 +18,8 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 local CCMSI_VERSION = "v1.21"
 
 local install_dir = "/.install-cache"
-local manifest_path = "https://mikaylafischler.github.io/cc-mek-scada/manifests/"
-local repo_path = "http://raw.githubusercontent.com/MikaylaFischler/cc-mek-scada/"
+local manifest_path = "https://SamTheDevDE.github.io/CCMEK-FCP/manifests/"
+local repo_path = "http://raw.githubusercontent.com/SamTheDevDE/CCMEK-FCP/"
 
 ---@diagnostic disable-next-line: undefined-global
 local _is_pkt_env = pocket -- luacheck: ignore pocket
@@ -371,9 +371,9 @@ if mode == "check" then
     local local_ok, local_manifest = read_local_manifest()
     if not local_ok then
         yellow();println("failed to load local installation information");white()
-        local_manifest = { versions = { installer = CCMSI_VERSION } }
+        local_manifest = { versions = { installer = FRCMS_VERSION } }
     else
-        local_manifest.versions.installer = CCMSI_VERSION
+        local_manifest.versions.installer = FRCMS_VERSION
     end
 
     -- list all versions
@@ -395,7 +395,7 @@ if mode == "check" then
     end
 
     if manifest.versions.installer ~= local_manifest.versions.installer and not _is_pkt_env then
-        yellow();println("\nA different version of the installer is available, it is recommended to update (use 'ccmsi update installer').");white()
+        yellow();println("\nA different version of the installer is available, it is recommended to update (use 'frcms update installer').");white()
     end
 elseif mode == "install" or mode == "update" then
     local ok, r_manifest, l_manifest
@@ -434,11 +434,11 @@ elseif mode == "install" or mode == "update" then
         end
     end
 
-    if r_manifest.versions.installer ~= CCMSI_VERSION then
+    if r_manifest.versions.installer ~= FRCMS_VERSION then
         if not update_installer then yellow();println("A different version of the installer is available, it is recommended to update to it.");white() end
         if update_installer or ask_y_n("Would you like to update now", true) then
-            lgray();println("GET ccmsi.lua")
-            local dl, err = http.get(repo_path.."ccmsi.lua")
+            lgray();println("GET frcmsi.lua")
+            local dl, err = http.get(repo_path.."frcmsi.lua")
 
             if dl == nil then
                 red();println("HTTP Error: "..err)

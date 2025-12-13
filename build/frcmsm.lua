@@ -103,7 +103,7 @@ local function clean(manifest)
     local tree = gen_tree(manifest, log)
 
     table.insert(tree, "install_manifest.json")
-    table.insert(tree, "ccmsim.lua")
+    table.insert(tree, "frcmsm.lua")
 
     local ls = fs.list("/")
     for _, val in pairs(ls) do
@@ -126,7 +126,7 @@ end
 println("-- CC Mekanism SCADA Install Manager (Off-Line) --")
 
 if #opts == 0 or opts[1] == "help" then
-    println("usage: ccmsim <mode>")
+    println("usage: frcmsm <mode>")
     println("<mode>")
     lgray()
     println(" check     - check your installed versions")

@@ -1,12 +1,10 @@
 # CCMEK-FRCMS
-ComputerCraft and Mekanism Fission Reactor Control and Management System
+ComputerCraft and Mekanism Fission Reactor Control and Management System (CCMEK-FRCMS) is a configurable SCADA system for multi-reactor control of Mekanism fission reactors with a GUI, automatic safety features, waste processing control, and more! 
 
-Configurable ComputerCraft SCADA system for multi-reactor control of Mekanism fission reactors with a GUI, automatic safety features, waste processing control, and more! 
-
-![GitHub](https://img.shields.io/github/license/MikaylaFischler/CCMEK-FRCMS)
-![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/MikaylaFischler/CCMEK-FRCMS?include_prereleases)
-![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/MikaylaFischler/CCMEK-FRCMS/check.yml?branch=main&label=main)
-![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/MikaylaFischler/CCMEK-FRCMS/check.yml?branch=devel&label=devel)
+![GitHub](https://img.shields.io/github/license/MikaylaFischler/cc-mek-frcms)
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/MikaylaFischler/cc-mek-frcms?include_prereleases)
+![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/MikaylaFischler/cc-mek-frcms/check.yml?branch=main&label=main)
+![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/MikaylaFischler/cc-mek-frcms/check.yml?branch=devel&label=devel)
 
 ### Join [the Discord](https://discord.gg/R9NSCkhcwt)!
 
@@ -14,21 +12,21 @@ Configurable ComputerCraft SCADA system for multi-reactor control of Mekanism fi
 
 ## Released Component Versions
 
-![Installer](https://img.shields.io/endpoint?url=https%3A%2F%2Fmikaylafischler.github.io%2FCCMEK-FRCMS%2Finstaller.json)
+![Installer](https://img.shields.io/endpoint?url=https%3A%2F%2Fmikaylafischler.github.io%2Fcc-mek-frcms%2Finstaller.json)
 
 
-![Bootloader](https://img.shields.io/endpoint?url=https%3A%2F%2Fmikaylafischler.github.io%2FCCMEK-FRCMS%2Fbootloader.json)
-![Comms](https://img.shields.io/endpoint?url=https%3A%2F%2Fmikaylafischler.github.io%2FCCMEK-FRCMS%2Fcommon.json)
-![Comms](https://img.shields.io/endpoint?url=https%3A%2F%2Fmikaylafischler.github.io%2FCCMEK-FRCMS%2Fcomms.json)
-![Graphics](https://img.shields.io/endpoint?url=https%3A%2F%2Fmikaylafischler.github.io%2FCCMEK-FRCMS%2Fgraphics.json)
-![Lockbox](https://img.shields.io/endpoint?url=https%3A%2F%2Fmikaylafischler.github.io%2FCCMEK-FRCMS%2Flockbox.json)
+![Bootloader](https://img.shields.io/endpoint?url=https%3A%2F%2Fmikaylafischler.github.io%2Fcc-mek-frcms%2Fbootloader.json)
+![Comms](https://img.shields.io/endpoint?url=https%3A%2F%2Fmikaylafischler.github.io%2Fcc-mek-frcms%2Fcommon.json)
+![Comms](https://img.shields.io/endpoint?url=https%3A%2F%2Fmikaylafischler.github.io%2Fcc-mek-frcms%2Fcomms.json)
+![Graphics](https://img.shields.io/endpoint?url=https%3A%2F%2Fmikaylafischler.github.io%2Fcc-mek-frcms%2Fgraphics.json)
+![Lockbox](https://img.shields.io/endpoint?url=https%3A%2F%2Fmikaylafischler.github.io%2Fcc-mek-frcms%2Flockbox.json)
 
 
-![Reactor PLC](https://img.shields.io/endpoint?url=https%3A%2F%2Fmikaylafischler.github.io%2FCCMEK-FRCMS%2Freactor-plc.json)
-![RTU](https://img.shields.io/endpoint?url=https%3A%2F%2Fmikaylafischler.github.io%2FCCMEK-FRCMS%2Frtu.json)
-![Supervisor](https://img.shields.io/endpoint?url=https%3A%2F%2Fmikaylafischler.github.io%2FCCMEK-FRCMS%2Fsupervisor.json)
-![Coordinator](https://img.shields.io/endpoint?url=https%3A%2F%2Fmikaylafischler.github.io%2FCCMEK-FRCMS%2Fcoordinator.json)
-![Pocket](https://img.shields.io/endpoint?url=https%3A%2F%2Fmikaylafischler.github.io%2FCCMEK-FRCMS%2Fpocket.json)
+![Reactor PLC](https://img.shields.io/endpoint?url=https%3A%2F%2Fmikaylafischler.github.io%2Fcc-mek-frcms%2Freactor-plc.json)
+![RTU](https://img.shields.io/endpoint?url=https%3A%2F%2Fmikaylafischler.github.io%2Fcc-mek-frcms%2Frtu.json)
+![Supervisor](https://img.shields.io/endpoint?url=https%3A%2F%2Fmikaylafischler.github.io%2Fcc-mek-frcms%2Fsupervisor.json)
+![Coordinator](https://img.shields.io/endpoint?url=https%3A%2F%2Fmikaylafischler.github.io%2Fcc-mek-frcms%2Fcoordinator.json)
+![Pocket](https://img.shields.io/endpoint?url=https%3A%2F%2Fmikaylafischler.github.io%2Fcc-mek-frcms%2Fpocket.json)
 
 ## Requirements
 
@@ -45,9 +43,9 @@ v10.1+ is required due to the complete support of CC:Tweaked added in Mekanism v
 ## Installation
 
 You can install this on a ComputerCraft computer using either:
-* `wget https://raw.githubusercontent.com/MikaylaFischler/CCMEK-FRCMS/main/frcmsi.lua`
+* `wget https://raw.githubusercontent.com/MikaylaFischler/cc-mek-frcms/main/frcmsi.lua`
 * `pastebin get sqUN6VUb frcmsi.lua`
-* Off-line (when HTTP is disabled) installation via [release bundles](https://github.com/MikaylaFischler/CCMEK-FRCMS/wiki/Alternative-Installation-Strategies#release-bundles)
+* Off-line (when HTTP is disabled) installation via [release bundles](https://github.com/MikaylaFischler/cc-mek-frcms/wiki/Alternative-Installation-Strategies#release-bundles)
 
 ## Contributing
 

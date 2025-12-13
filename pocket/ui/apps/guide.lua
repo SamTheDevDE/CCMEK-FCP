@@ -97,7 +97,7 @@ local function new_view(root)
 
         local sect_construct_data = { app, page_div, panes, doc_map, search_db, btn_fg_bg, btn_active }
 
-        TextBox{parent=home,y=1,text="cc-mek-scada Guide",alignment=ALIGN.CENTER}
+        TextBox{parent=home,y=1,text="CCMEK-FRCMS Guide",alignment=ALIGN.CENTER}
 
         PushButton{parent=home,y=3,text="Search              >",fg_bg=btn_fg_bg,active_fg_bg=btn_active,callback=search_page.nav_to}
         PushButton{parent=home,y=5,text="System Usage        >",fg_bg=btn_fg_bg,active_fg_bg=btn_active,callback=use_page.nav_to}
@@ -289,10 +289,10 @@ local function new_view(root)
 
         lnk.line_break()
         TextBox{parent=lnk,text="GitHub",fg_bg=cpair(colors.lightGray,colors.black)}
-        TextBox{parent=lnk,text="https://github.com/MikaylaFischler/cc-mek-scada"}
+        TextBox{parent=lnk,text="https://github.com/MikaylaFischler/cc-mek-frcms"}
         lnk.line_break()
         TextBox{parent=lnk,text="Wiki",fg_bg=cpair(colors.lightGray,colors.black)}
-        TextBox{parent=lnk,text="https://github.com/MikaylaFischler/cc-mek-scada/wiki"}
+        TextBox{parent=lnk,text="https://github.com/MikaylaFischler/cc-mek-frcms/wiki"}
         lnk.line_break()
         TextBox{parent=lnk,text="Discord",fg_bg=cpair(colors.lightGray,colors.black)}
         TextBox{parent=lnk,text="discord.gg/R9NSCkhcwt"}

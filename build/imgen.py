@@ -46,7 +46,7 @@ def get_version(path, is_lib = False):
 def make_manifest(size):
     manifest = {
         "versions" : {
-            "installer" : get_version("./ccmsi.lua"),
+            "installer" : get_version("./frcmsi.lua"),
             "bootloader" : get_version("./startup.lua"),
             "common" : get_version("./scada-common/util.lua", True),
             "comms" : get_version("./scada-common/comms.lua", True),
