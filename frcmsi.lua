@@ -262,8 +262,8 @@ end
 
 -- get and validate command line options
 
-if _is_pkt_env then println("- SCADA Installer "..CCMSI_VERSION.." -")
-else println("-- CC Mekanism SCADA Installer "..CCMSI_VERSION.." --") end
+if _is_pkt_env then println("- SCADA Installer "..FRCMS_VERSION.." -")
+else println("-- CC Mekanism SCADA Installer "..FRCMS_VERSION.." --") end
 
 if #opts == 0 or opts[1] == "help" then
     println("usage: ccmsi <mode> <app> <branch>")
