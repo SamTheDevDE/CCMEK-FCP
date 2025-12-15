@@ -1,4 +1,4 @@
-local FRCMS_VERSION = "v1.22"
+local FRCMS_VERSION = "v1.3"
 
 local install_dir = "/.install-cache"
 local manifest_path = "https://SamTheDevDE.github.io/CCMEK-FCP/manifests/"
