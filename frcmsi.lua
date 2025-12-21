@@ -1,4 +1,4 @@
-local FRCMS_VERSION = "v1.3"
+local FRCMS_VERSION = "v1.3.1"
 
 local install_dir = "/.install-cache"
 local manifest_path = "https://SamTheDevDE.github.io/CCMEK-FCP/manifests/"
@@ -242,7 +242,7 @@ local function clean(manifest)
     local tree = gen_tree(manifest, log)
 
     table.insert(tree, "install_manifest.json")
-    table.insert(tree, "ccmsi.lua")
+    table.insert(tree, "frcmsi.lua")
 
     local ls = fs.list("/")
     for _, val in pairs(ls) do
