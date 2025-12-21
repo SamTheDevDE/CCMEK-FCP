@@ -1,0 +1,6 @@
+{
+    "Lua.diagnostics.disable": [
+        "undefined-global"
+    ],
+    "C_Cpp.errorSquiggles": "disabled"
+}
